@@ -1,5 +1,6 @@
 ﻿using Application.Interface;
 using Domain;
+using Microsoft.EntityFrameworkCore;
 using Persistence;
 using System;
 using System.Collections.Generic;
@@ -18,12 +19,12 @@ namespace Application
         }
         public List<Launche> GetAll()
         {
-            return _dataContext.Launches.ToList();
+            return _dataContext.Launches.Include(launche=> launche.links).ToList();
         }
 
         public Launche GetById(int id)
         {
-            var launche = _dataContext.Launches.Find(id);
+            var launche = _dataContext.Launches.Include(launche => launche.links).Include(launche => launche.rocket).FirstOrDefault(launche=>launche.Id==id);
             if (launche == null)
             {
                 return new Launche();
