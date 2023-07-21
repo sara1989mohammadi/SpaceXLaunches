@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import useHttp from "../../hooks/use-http";
 import LaunchContext from "../../store/LaunchContext";
 import LaunchDetails from "./LaunchDetails";
+
 jest.mock("../../hooks/use-http.js");
 test("renders launch name correctly", () => {
   const myInitialState = {

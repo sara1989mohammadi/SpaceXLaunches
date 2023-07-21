@@ -8,6 +8,11 @@ function LaunchItem(props) {
     ctx.showDetails(true);
     ctx.selectedItem(id);
   };
+  const date = new Date(props.launch.launch_date_utc);
+  const month = date.toLocaleString("en-US", { month: "2-digit" });
+  const day = date.toLocaleString("en-US", { day: "2-digit" });
+  const year = date.getFullYear();
+
   return (
     <tr>
       <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -37,7 +42,7 @@ function LaunchItem(props) {
       </td>
       <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
         <p className="text-gray-900 whitespace-no-wrap">
-          {props.launch.launch_date_utc}
+          {day}/{month}/{year}
         </p>
       </td>
       <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">

@@ -21,7 +21,7 @@ function LaunchList() {
     return <Loading />;
   }
   ctx.setItems(data);
-
+  
   return (
     <Fragment>
       <div>

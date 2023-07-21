@@ -2,9 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import LaunchList from "./LaunchList";
 import useHttp from "../../hooks/use-http";
-import LaunchContext, {
-  LaunchContextProvider,
-} from "../../store/LaunchContext";
+import LaunchContext from "../../store/LaunchContext";
 jest.mock("../../hooks/use-http.js");
 test("renders launch name correctly", () => {
   const myInitialState = [
@@ -65,9 +63,7 @@ test("renders launch name correctly", () => {
     error: null,
   });
 
-  const setItemsHandler = (list) => {
-
-  };
+  const setItemsHandler = (list) => {};
 
   render(
     <LaunchContext.Provider
