@@ -12,22 +12,24 @@ function LaunchItem(props) {
     <tr>
       <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
         <div className="flex">
+          <div className="flex-shrink-0 w-10 h-10">
+            <img
+              className="w-full h-full rounded-full"
+              src={props.launch.links.mission_patch_small}
+              alt=""
+            />
+          </div>
           <div className="ml-3">
+            <p className="text-gray-900 whitespace-no-wrap">
+              {props.launch.mission_name}
+            </p>
             <p className="text-gray-600 whitespace-no-wrap">
               {props.launch.flight_number}
             </p>
           </div>
         </div>
       </td>
-      <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-        <div className="flex">
-          <div className="ml-3">
-            <p className="text-gray-900 whitespace-no-wrap">
-              {props.launch.mission_name}
-            </p>
-          </div>
-        </div>
-      </td>
+
       <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
         <p className="text-gray-900 whitespace-no-wrap">
           {props.launch.details}

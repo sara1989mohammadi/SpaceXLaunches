@@ -29,12 +29,12 @@ export const LaunchContextProvider = (props) => {
   return (
     <LaunchContext.Provider
       value={{
-        items: items,
+        items,
         setItems: setItemsHandler,
-        isShowDetails: isShowDetails,
+        isShowDetails,
         showDetails: showDetailsHandler,
         selectedItem: selectedItemHandler,
-        selectId: selectId,
+        selectId,
       }}>
       {props.children}
     </LaunchContext.Provider>
