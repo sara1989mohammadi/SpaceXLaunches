@@ -8,8 +8,6 @@ And also use [ASP.NET Core](https://github.com/dotnet/aspnetcore) for the backen
 Support three versions of .NET:
 
 - [.NET 6](https://github.com/ivanpaulovich/clean-architecture-manga/tree/main) - .NET 6.
-- [.NET 5](https://github.com/ivanpaulovich/clean-architecture-manga/tree/dotnet5.0) - .NET 5.
-- [.NET Core 3.1](https://github.com/ivanpaulovich/clean-architecture-manga/tree/dotnet3.1) - .NET Core 3.1.
 
 ## Description
 For BackEnd, I used Clean Architecture.
