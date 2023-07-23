@@ -1,10 +1,10 @@
 # SpaceX Launches
 
-Sapmle app for get all the launches SpaceX and dietals them.
+Sample app for getting all the launches SpaceX and details them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-And also we use [ASP.NET Core](https://github.com/dotnet/aspnetcore) for backend.
+And also we use [ASP.NET Core](https://github.com/dotnet/aspnetcore) for the backend.
 
 ## 🔧Technologies
 
@@ -24,7 +24,7 @@ And also we use [ASP.NET Core](https://github.com/dotnet/aspnetcore) for backend
 
 ```shell
 $ git clone https://github.com/sara1989mohammadi/SpaceXLaunches.git
-$ cd /FrontEnd/spacex-launches
+$ cd /FrontEnd/SpaceX-launches
 $ npm install
 $ npm start
 $ cd /BackEnd/SpaceXLaunche
@@ -32,7 +32,7 @@ $ dotnet restore
 $ dotnet run
 ```
 
-Also you open the BackEnd project with Visual Studio you dont need todo any thing
+Also, you open the BackEnd project with Visual Studio you don't need todo anything
 
 ## Run Test
 
