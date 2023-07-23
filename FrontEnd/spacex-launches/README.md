@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# SpaceX Launches
+Sapmle app for get all the launches SpaceX and dietals them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+And also we use [ASP.NET Core](https://github.com/dotnet/aspnetcore) for backend.
 
-In the project directory, you can run:
+## 🔧Technologies
+![React](https://camo.githubusercontent.com/9f73cc3ca53f4f6ba2bd3db11812f4f0b63e9ea1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742532302d2532333631444146422e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d5265616374266c6f676f436f6c6f723d7768697465?ref=morioh.com&utm_source=morioh.com)&nbsp;
+![.NET](https://camo.githubusercontent.com/a8ea388e7c27e30cf73230acff28209c1f2a6d72/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2e4e45542532302d2532333543324439312e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d2e4e4554266c6f676f436f6c6f723d7768697465?ref=morioh.com&utm_source=morioh.com)&nbsp;
+![Tailwind CSS](https://camo.githubusercontent.com/0756d4e6bfe73bddb650dc6de8aa0f8811caaac8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e645f4353532532302d2532333338423241432e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d5461696c77696e64253230435353266c6f676f436f6c6f723d7768697465?ref=morioh.com&utm_source=morioh.com)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Create React App
+- React ContextAPI
+- Tailwind CSS
+- ASP.NET Core
+- EF Core
 
-### `npm test`
+Quick Start
+-----------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```shell
+$ git clone https://github.com/sara1989mohammadi/SpaceXLaunches.git
+$ cd /FrontEnd/spacex-launches
+$ npm install
+$ npm start
+$ cd /BackEnd/SpaceXLaunche
+$ dotnet restore
+$ dotnet run 
+```
 
-### `npm run build`
+Also you open the BackEnd project with Visual Studio you dont need todo any thing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run Test
+-----------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```shell
+$ cd /FrontEnd/spacex-launches
+$ npm test
+$ cd /BackEnd/SpaceXLaunche
+$ dotnet test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you open the test Project you can run it with Test in the menu
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following sections are recommended:
 
-### Code Splitting
+- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Tutorial react hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React ContextAPI](https://legacy.reactjs.org/docs/context.html)
+- [React Testing Library](https://github.com/testing-library/react-testing-library)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
